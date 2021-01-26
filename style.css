@@ -1,0 +1,104 @@
+/* This is a CSS comment. CSS is used to tell the HTML sections what styles to use and keeps it all in a neat, separate file to reference. */
+
+/* This method is like the Master Styler = * Basically, the default setting. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* More info coming soon... Fixes something with website formatting. */
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Provides font styl info to the body of the webpage.. */
+body {
+    font-family: Helvetica Neue, Arial;
+    font-size: 18px;
+}
+
+/* Colors all Headers a shade of green. */
+h1, h2 {
+    color: #67042e;
+}
+
+/* H1 Header size parameters. */
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px; 
+}
+
+/* H2 Header size parameters. */
+h2 {
+    font-size: 25px;
+    margin-bottom: 10px; 
+}
+
+/* Styles main body text area. */
+.main-text{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Styles "Footer" area. */
+.author-text{
+    font-size: 22px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+/* Structures "Menu/Links" location. */
+.container {
+    width: 1140px;
+    margin: 20px auto 0 auto;
+}
+
+/* Formats Blog location. */
+.blog-post {
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+    position: relative;
+}
+
+/* Formats Blog location. */
+.other-posts {
+    width: 25%;
+    float: left;
+}
+
+/* Formats Footer location. */
+.author {
+    padding-top: 20px;
+    border-top: 1px solid #555555;
+}
+
+/* I don't remember what this method/attribute is for... lol. */
+.other {
+    margin-bottom: 40px;
+}
+
+/* Formats Author image */
+.author img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+}
+
+/* Format's Blog post image. */
+.blog-post img {
+    height: 150px;
+    width: auto;
+}
+
+/* Date attribute position. */
+.date{
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
